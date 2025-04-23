@@ -6,9 +6,9 @@ const CallToAction = () => {
 
   return (
     <div className="bg-[#0A2640] py-12 px-4 sm:px-8 md:px-16 lg:px-24 text-white text-center relative">
-        <div className="absolute w-[200px] rounded-bl-full z-10  top-0 h-[140px] right-0 text-amber-300 bg-[#1C3D5B]"></div>
-      <div className="max-w-2xl mx-auto z-50">
-        <h2 className="text-2xl sm:text-4xl font-semibold mb-6 relative">
+        <div className="absolute w-[200px] rounded-bl-full z-0  top-0 h-[140px] right-0 text-amber-300 bg-[#1C3D5B]"></div>
+      <div className="max-w-2xl mx-auto ">
+        <h2 className="text-2xl sm:text-4xl font-semibold mb-6 z-10 relative">
           An enterprise template to ramp up your company website
         </h2>
         <div className="flex flex-col sm:flex-row items-center gap-4">
