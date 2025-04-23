@@ -5,7 +5,7 @@ import { articles } from "../data/newsData";
 export default function NewsSection() {
     return (
       <div className="bg-white px-4 py-8 md:px-8">
-        <h2 className="text-3xl md:text-5xl font-semibold mb-10">Latest news</h2>
+        <h2 className="text-3xl text-black md:text-5xl font-semibold mb-10">Latest news</h2>
   
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mb-8">
           {articles.map((article, idx) => (
